@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    margin: 0;
+    list-style: none;
+}
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url(https://corporate.cyrilamarchandblogs.com/wp-content/uploads/sites/857/2021/03/Transfer-of-Shares-of-an-Insurance-Company-The-much-needed-clarifications.png );
+    background-position:center;
+    background-size:auto;
+    margin: 0;
+    height: 100vh;
+    
+}
+.header{
+    background-color:#808d97;
+    justify-content: space-between;
+    display: flex;
+    text-align: left;
+    align-items:center;
+}
+nav{
+    background-color:#56595b;
+    width:100%;
+    height: 100px;
+}
+label.logo{
+    color:whitesmoke;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 80px;
+}
+nav ul{
+    float: right;
+    margin-right :10px; 
+    
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+nav ul li a{
+    color: antiquewhite;
+    text-transform:uppercase;
+    font-size:17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+}
+a.active,a:hover{
+    background: #628cad;
+    transition: .5s;
+}
+
